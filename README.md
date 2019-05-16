@@ -1,4 +1,4 @@
-#Plantilla html 1
+# Plantilla html 1
 
 Hola este repositorio hacer parte del tutorial de desarrollo de una plantilla web desde 0
 
