@@ -6,6 +6,19 @@ html,body{
     font-weight: 500;
 }
 .movil{ display: none; }
+.text-center{ text-align: center; }
+.imgIzquierda{
+    float: left;
+    max-width: 400px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+.imgDerecha{
+    float: Right;
+    max-width: 400px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
 
 .header .container{ border-bottom: 1px solid #ccc; padding-top: 10px; padding-bottom: 10px; }
 .header a{ text-decoration: none; color:#333; }
@@ -167,6 +180,40 @@ html,body{
 }
 .footer .redes a{
     font-size: 40px;
+}
+
+
+.divnosotros p{ text-align: justify; }
+
+.divcontacto .container{
+    max-width: 600px;
+}
+.divcontacto .container form .form-control{
+    padding: 10px;
+}
+.divcontacto form label{
+    margin-top: 15px;
+    display: block;
+}
+.divcontacto form input, .divcontacto form  textarea{
+    height: 28px;
+    width: 100%; 
+    outline: none;
+    padding-left: 10px;    
+}
+.divcontacto form  textarea{
+    height: 95px;
+}
+.divcontacto form button{
+    background: green;
+    padding: 10px;
+    color:#fff;
+    border-radius: 10px;
+    outline: none;
+    border:0px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 @media(max-width:800px){
     .row{ margin-left: 0px; margin-right: 0px; }

@@ -16,4 +16,10 @@ $(function () {
         autoplay: true,
         autoplayTimeout: 5000
     });
+    $(".listblog .item").hover(function () {
+        $(".listblog .item").removeClass("animated")
+        $(".listblog .item").removeClass("bounce")
+        $(this).addClass("animated");
+        $(this).addClass("bounce");
+    })
 })
